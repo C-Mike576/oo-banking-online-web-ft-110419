@@ -25,7 +25,7 @@ class Transfer
       @status = "complete"
     else
       @status = "rejected"
-      print "Transaction rejected. Please check your account balance."
+      p "Transaction rejected. Please check your account balance."
     end  
     
   end
