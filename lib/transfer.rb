@@ -24,8 +24,8 @@ class Transfer
       @receiver.balance += @amount
       @status = "complete"
     else
-     
       @status = "rejected"
+      puts 
     end  
     
   end
