@@ -14,6 +14,7 @@ class Transfer
     else
       false
     end
+  end
   
   
 end
